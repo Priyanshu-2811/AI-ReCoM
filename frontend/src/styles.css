@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 50px;
+}
+
+.login-card, .upload-card, .chat-card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 300px;
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
